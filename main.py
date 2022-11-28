@@ -6,7 +6,6 @@ from time import sleep
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup as bs
 from win10toast import ToastNotifier
-from sys import exit
 from multiprocessing import Process
 
 bell = ToastNotifier()
